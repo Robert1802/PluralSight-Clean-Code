@@ -47,7 +47,6 @@ namespace CodeLuau
             bool atLeastOneSessionApproved = ApproveSessions();
             if (!atLeastOneSessionApproved) return RegisterError.NoSessionsApproved;
             return null;
-
         }
 
         private bool ApproveSessions()
